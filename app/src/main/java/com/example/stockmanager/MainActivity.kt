@@ -1,5 +1,6 @@
 package com.example.stockmanager
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -44,8 +45,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.nav_profile -> Toast.makeText(this, "Profile Page Opened", Toast.LENGTH_SHORT).show()
             R.id.nav_logout -> Toast.makeText(this, "You've been logged out", Toast.LENGTH_SHORT).show()
+            R.id.nav_profile -> {
+                    val intent= Intent(this,MainActivity2::class.java)
+                    startActivity(intent)
+                return true
+            }
         }
         return true//super.onOptionsItemSelected(item)
     }
