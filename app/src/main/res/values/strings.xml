@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StockManager</string>
+    <string name="btlogin">LOGIN</string>
+    <string name="btregister">REGISTER</string>
+    <string name="loginmail">Email address</string>
+    <string name="loginpwd">Password</string>
+    <string name="registermail">Write your email address here</string>
+    <string name="registerpwd1">Choose a password</string>
+    <string name="registerpwd2">Confirm your password</string>
+    <string name="signup">SIGN UP</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LLlogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/registergif"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/register" />
+
+        <EditText
+            android:id="@+id/ETloginmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginmail"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ETloginpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginpwd"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckBox"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/BTlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btlogin" />
+
+        <Button
+            android:id="@+id/BTregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btregister" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLregister"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/ETregistermail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/registermail"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ETregisterpwd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/registerpwd1"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/ETregisterpwd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/registerpwd2"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/BTsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup" />
+    </LinearLayout>
+</LinearLayout>
+
