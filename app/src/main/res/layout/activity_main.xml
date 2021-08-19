@@ -43,10 +43,10 @@
 
         <CheckBox
             android:id="@+id/checkBox"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CheckBox"
-            android:visibility="gone" />
+            android:text="@string/checkboxconfirm"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/BTlogin"
@@ -75,6 +75,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/registermail"
             android:importantForAutofill="no"
+            android:textAlignment="center"
             tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
 
         <EditText
@@ -83,6 +84,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/registerpwd1"
             android:importantForAutofill="no"
+            android:textAlignment="center"
             tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
 
         <EditText
@@ -91,6 +93,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/registerpwd2"
             android:importantForAutofill="no"
+            android:textAlignment="center"
             tools:ignore="TextFields,TouchTargetSizeCheck,TextContrastCheck" />
 
         <Button

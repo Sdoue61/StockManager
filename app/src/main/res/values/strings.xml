@@ -8,4 +8,8 @@
     <string name="registerpwd1">Choose a password</string>
     <string name="registerpwd2">Confirm your password</string>
     <string name="signup">SIGN UP</string>
+    <string name="navprofile">PROFILE</string>
+    <string name="navlogout">LOG OUT</string>
+    <string name="checkboxconfirm">Tick the box if you are a manager</string>
+    <string name="usernamehere">Please enter a username</string>
 </resources>
